@@ -1,0 +1,20 @@
+Requirements (OS X)
+
+1)Requires gsed function
+Install at command line with homebrew: “brew install gnu-sed”
+
+2)Requires MacTex graphics application and texshade library:
+Install from http://www.tug.org/mactex/
+
+3) Required files
+	RNA sequence file:
+	“annotated.dontScreenMatchAnnot.dontScreenProteinCoding.fa”
+	Transdecoder processed RNA sequences file:
+	“annotated.dontScreenMatchAnnot.dontScreenProteinCoding.fa.transdecoder.pep”
+
+4)Unix Shell Scripts (tested on OS X 10.12.6):
+	AAseqFromPBids.bash
+	CombineALL_AAseq.bash
+	CombineALL_RNAseq.bash
+	TempPBidsUNIQUEtoEXACT.bash
+	RNAseqFromPBids.bash
